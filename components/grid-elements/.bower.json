@@ -1,0 +1,19 @@
+{
+  "name": "grid-elements",
+  "keywords": "seed, polymer, web-components",
+  "main": "grid-elements.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.0"
+  },
+  "homepage": "https://github.com/robdodson/grid-elements",
+  "_release": "66fca8f89d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "66fca8f89dd9a28e50d8e753917073355a8274d3"
+  },
+  "_source": "git://github.com/robdodson/grid-elements.git",
+  "_target": "master",
+  "_originalSource": "robdodson/grid-elements",
+  "_direct": true
+}

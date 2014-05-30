@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>grid-elements Demo</title>
+
+  <script src="../platform/platform.js"></script>
+  <link rel="import" href="grid-elements.html">
+  <link rel="import" href="grid-row.html">
+  <link rel="import" href="grid-col.html">
+
+  <style>
+    grid-col div {
+      background: #EEE;
+      padding: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body unresolved>
+
+  <grid-elements>
+
+    <grid-row>
+      <grid-col span="1-2">
+        <div>1/2</div>
+      </grid-col>
+      <grid-col span="1-2">
+        <div>1/2</div>
+      </grid-col>
+    </grid-row>
+
+    <grid-row>
+      <grid-col span="1-3">
+        <div>1/3</div>
+      </grid-col>
+      <grid-col span="2-3">
+        <div>2/3</div>
+      </grid-col>
+    </grid-row>
+
+    <grid-row>
+      <grid-col span="1-4">
+        <div>1/4</div>
+      </grid-col>
+      <grid-col span="1-4">
+        <div>1/4</div>
+      </grid-col>
+      <grid-col span="1-4">
+        <div>1/4</div>
+      </grid-col>
+      <grid-col span="1-4">
+        <div>1/4</div>
+      </grid-col>
+    </grid-row>
+
+    <grid-row>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+      <grid-col span="1-8">
+        <div>1/8</div>
+      </grid-col>
+    </grid-row>
+
+  </grid-elements>
+
+</body>
+</html>

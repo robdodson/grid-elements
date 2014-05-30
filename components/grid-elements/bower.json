@@ -1,0 +1,9 @@
+{
+  "name": "grid-elements",
+  "version": "0.0.1",
+  "keywords": "seed, polymer, web-components",
+  "main": "grid-elements.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.0"
+  }
+}
